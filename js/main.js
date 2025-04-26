@@ -28,9 +28,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Galería dinámica
 const galleryImages = [
-    { src: '../img/image2.png', alt: 'Evento 1' },
-    { src: '../img/image1.png', alt: 'Evento 2' },
-    { src: '../img/image.png', alt: 'Evento 3' },
+    { src: 'img/image2.png', alt: 'Evento 1' },
+    { src: 'img/image1.png', alt: 'Evento 2' },
+    { src: 'img/image.png', alt: 'Evento 3' },
 ];
 
 const galleryContainer = document.querySelector('#galeria .row');
